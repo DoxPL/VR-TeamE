@@ -2841,41 +2841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fbd653bdf1b9451ba702d29c9d52a4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 1934284792}
 --- !u!4 &1936988998 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5930674254827292649, guid: c132c702b10c749e98c387d35f65f0e0,
@@ -3287,6 +3252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FPSController
+      objectReference: {fileID: 0}
+    - target: {fileID: 552641670671791470, guid: 8ce71fc34775a44ee8f3af7173a0e4d7,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.581
       objectReference: {fileID: 0}
     - target: {fileID: 552641670962420016, guid: 8ce71fc34775a44ee8f3af7173a0e4d7,
         type: 3}
