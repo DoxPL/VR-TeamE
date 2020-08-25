@@ -17,7 +17,7 @@ public class ShootingEnemy : Enemy
 
     void Start()
     {
-        player = GameObject.Find("FPSController").GetComponent<Player>();
+        player = GameObject.Find("FPSControllerCoop").GetComponent<Player>();
         shotTimer = Random.Range(0, shotInterval);
         agent = GetComponent<NavMeshAgent>();
 
