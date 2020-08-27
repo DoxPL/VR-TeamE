@@ -19,6 +19,9 @@ public class DisableRemotePlayer : NetworkBehaviour
         else
         {
             player.enabled = false;
+            //var camera = transform.Find("Main Camera");
+            //camera.GetComponent<Camera>().enabled = false;
+
             //playerCoop.enabled = false;
         }
 

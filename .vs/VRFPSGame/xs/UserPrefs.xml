@@ -1,29 +1,33 @@
 ﻿<Properties StartupConfiguration="{3F228F35-0777-59F2-18B5-4C51BC66908B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project/Scripts/Game/ThreadManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project/Scripts/Network/CameraSettings.cs">
     <Files>
       <File FileName="Assets/Project/Scripts/Game/UIManager.cs" Line="1" Column="1" IsPinned="True" />
       <File FileName="Assets/Project/Scripts/Utils/ObjectPoolingManager.cs" />
       <File FileName="Assets/Project/Scripts/Game/ForceReceiver.cs" />
       <File FileName="Assets/Project/Scripts/Game/Packet.cs" />
       <File FileName="Assets/Project/Scripts/Game/HealthBox.cs" />
-      <File FileName="Assets/Project/Scripts/Game/GameController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Project/Scripts/Game/GameController.cs" />
       <File FileName="Assets/Project/Scripts/GameMenu/GameMenuController.cs" />
-      <File FileName="Assets/Project/Scripts/Network/DisableRemotePlayer.cs" />
       <File FileName="Assets/Project/Scripts/Game/Player.cs" />
       <File FileName="Assets/Project/Scripts/Utils/PlayerMovementCoop.cs" />
-      <File FileName="Assets/Project/Scripts/Game/ShootingEnemy.cs" Line="20" Column="52" />
-      <File FileName="Assets/Project/Scripts/Game/ThreadManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Project/Scripts/Game/ShootingEnemy.cs" />
+      <File FileName="Assets/Project/Scripts/Game/ThreadManager.cs" />
+      <File FileName="Assets/Project/Scripts/Network/CameraSettings.cs" Line="9" Column="28" />
+      <File FileName="Assets/Project/Scripts/Network/DisableRemotePlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" Line="240" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="VRFPSGame" expanded="True" selected="True">
+          <Node name="VRFPSGame" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Project" expanded="True">
                 <Node name="Scripts" expanded="True">
                   <Node name="Game" expanded="True" />
                   <Node name="GameMenu" expanded="True" />
-                  <Node name="Network" expanded="True" />
+                  <Node name="Network" expanded="True">
+                    <Node name="CameraSettings.cs" selected="True" />
+                  </Node>
                   <Node name="Utils" expanded="True" />
                 </Node>
               </Node>
@@ -42,7 +46,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c3915f81-a3d7-4948-98ea-6b135152ca14" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="759be087-2618-4209-b026-f2e647ca6317" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -215,6 +215,7 @@ e1ede4f90f1b088f62d42b08f8306567 Assembly-CSharp.dll:.Bullet
 460f1bc7ddb5a5325403b8276116aa4d Mirror.Components.dll:Mirror.NetworkAnimator
 192ca9716d03752ea1d90a78bc2daac9 Mirror.Examples.dll:Mirror.Examples.MultipleAdditiveScenes.RandomColor
 8216ca00094987954bcf22fd5ccf9bfd Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.FreeLookCam
+82a3e78aee60460c3b58d6f15b02f0a0 Assembly-CSharp.dll:.PlayerMovementCoop
 8996336a1113af80862107545b719922 Mirror.Components.dll:Mirror.NetworkPingDisplay
 56e228cbcee3ed2e779d55e241ac9a04 Mirror.Examples.dll:Mirror.Examples.Chat.ChatNetworkManager
 42a930c6b13af0df34d41f5b19ec8152 Mirror.Components.dll:Mirror.NetworkMatchChecker
@@ -274,6 +275,7 @@ c933b2cffdb9d1429a103e9d63c523ef Assembly-CSharp-firstpass.dll:UnityStandardAsse
 02e6483ba585336f78a48b8cf2289aa0 Assembly-CSharp.dll:.MenuSceneLoader
 03b9ef2ed536e8d6280069f2195174da Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SimpleActivatorMenu
 f1fc3807092767a3eb60b3aeec6990bc Mirror.Examples.dll:Mirror.Examples.Pong.NetworkManagerPong
+d194ecd15c8f954e0e1208d23b06a96a Assembly-CSharp.dll:.CameraSettings
 071d93f3e16645b8ca72486802a5b912 Mirror.dll:Mirror.FallbackTransport
 7e6b022cd7f1c29976ca8b1a21d06265 Assembly-CSharp.dll:UnityStandardAssets.SceneUtils.PlaceTargetWithMouse
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GameServer
@@ -327,4 +329,3 @@ ed7550e476acb55d89d72c0de0db37ba Assembly-CSharp.dll:.ObjectPoolingManager
 4c790fa3b7c93033baa4406ca5ac8c04 Mirror.Examples.dll:Mirror.Examples.MultipleAdditiveScenes.Reward
 5fdc3c691001157e6a51b430df6e5f8c Mirror.Examples.dll:Mirror.Examples.MultipleAdditiveScenes.PlayerScore
 47cd05cf11ce8beb2fd9a1522f58f5ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-82a3e78aee60460c3b58d6f15b02f0a0 Assembly-CSharp.dll:.PlayerMovementCoop
