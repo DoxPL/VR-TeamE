@@ -38,10 +38,12 @@ public class ShootingEnemy : Enemy
         if (shotTimer <= 0 && (Vector3.Distance(transform.position, player.transform.position) <= shotDistance))
         {
             shotTimer = shotInterval;
+            /*
             GameObject bullet = ObjectPoolingManager.Instance.GetBullet(false);
             bullet.transform.position = transform.position;
             bullet.transform.forward = (player.transform.position - transform.position).normalized;
             agent.SetDestination(player.transform.position);
+            */
         }
 
         chasingTimer -= Time.deltaTime;
