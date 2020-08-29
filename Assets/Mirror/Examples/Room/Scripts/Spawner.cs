@@ -14,7 +14,7 @@ namespace Mirror.Examples.NetworkRoom
 
         public void SpawnPrize()
         {
-            Vector3 spawnPosition = new Vector3(Random.Range(-19, 20), 1, Random.Range(-19, 20));
+            Vector3 spawnPosition = new Vector3(Random.Range(0, 100), 1, Random.Range(0, 100));
 
             GameObject newPrize = Instantiate(prizePrefab.gameObject, spawnPosition, Quaternion.identity);
             Reward reward = newPrize.gameObject.GetComponent<Reward>();

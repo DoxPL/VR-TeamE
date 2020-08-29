@@ -325,7 +325,7 @@ e48a49f67b87d40afa66da9f2991f899 Mirror.Examples.dll:Mirror.Examples.Tanks.Proje
 862148ee6f656c9befce49dba370ec3e Mirror.Examples.Cloud.GUI.dll:Mirror.Cloud.Example.ServerListUI
 6fd2bb55b3ee5edb6040a1c5bccd0e07 Assembly-CSharp.dll:.DisableRemotePlayer
 ed7550e476acb55d89d72c0de0db37ba Assembly-CSharp.dll:.ObjectPoolingManager
-6e9fe685a8a104e09cdecfeb08e9a2bb Assembly-CSharp.dll:.ShootingEnemy
+08404e776535163d9ac54da50df8ef3a Assembly-CSharp.dll:.ShootingEnemy
 4c790fa3b7c93033baa4406ca5ac8c04 Mirror.Examples.dll:Mirror.Examples.MultipleAdditiveScenes.Reward
 5fdc3c691001157e6a51b430df6e5f8c Mirror.Examples.dll:Mirror.Examples.MultipleAdditiveScenes.PlayerScore
 47cd05cf11ce8beb2fd9a1522f58f5ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch

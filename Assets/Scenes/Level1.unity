@@ -119,6 +119,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 103950931}
     m_Modifications:
+    - target: {fileID: 5930674254827292648, guid: c132c702b10c749e98c387d35f65f0e0,
+        type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 552641669494504906}
     - target: {fileID: 5930674254827292649, guid: c132c702b10c749e98c387d35f65f0e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -477,6 +482,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 103950931}
     m_Modifications:
+    - target: {fileID: 5930674254827292648, guid: c132c702b10c749e98c387d35f65f0e0,
+        type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 552641669494504906}
     - target: {fileID: 5930674254827292649, guid: c132c702b10c749e98c387d35f65f0e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -673,6 +683,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 103950931}
     m_Modifications:
+    - target: {fileID: 5930674254827292648, guid: c132c702b10c749e98c387d35f65f0e0,
+        type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 552641669494504906}
     - target: {fileID: 5930674254827292649, guid: c132c702b10c749e98c387d35f65f0e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1166,6 +1181,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5930674254827292648, guid: c132c702b10c749e98c387d35f65f0e0,
+        type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 552641669494504906}
     - target: {fileID: 5930674254827292649, guid: c132c702b10c749e98c387d35f65f0e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1649,6 +1669,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 103950931}
     m_Modifications:
+    - target: {fileID: 5930674254827292648, guid: c132c702b10c749e98c387d35f65f0e0,
+        type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 552641669494504906}
     - target: {fileID: 5930674254827292649, guid: c132c702b10c749e98c387d35f65f0e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1718,6 +1743,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 103950931}
     m_Modifications:
+    - target: {fileID: 5930674254827292648, guid: c132c702b10c749e98c387d35f65f0e0,
+        type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 552641669494504906}
     - target: {fileID: 5930674254827292649, guid: c132c702b10c749e98c387d35f65f0e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2399,6 +2429,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5930674254827292648, guid: c132c702b10c749e98c387d35f65f0e0,
+        type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 552641669494504906}
     - target: {fileID: 5930674254827292649, guid: c132c702b10c749e98c387d35f65f0e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3324,7 +3359,7 @@ PrefabInstance:
     - target: {fileID: 2142623836250870988, guid: 5b1baa5f2228d45cb87cfecbbb313a1b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2142623836250870988, guid: 5b1baa5f2228d45cb87cfecbbb313a1b,
         type: 3}
@@ -3395,6 +3430,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5930674254827292648, guid: c132c702b10c749e98c387d35f65f0e0,
+        type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 552641669494504906}
     - target: {fileID: 5930674254827292649, guid: c132c702b10c749e98c387d35f65f0e0,
         type: 3}
       propertyPath: m_LocalPosition.x
