@@ -2445,6 +2445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8731302734603522125, guid: a7f38d798a1234437a2e6b80bd92d17e, type: 3}
   enemyContainer: {fileID: 1533400525}
+  isMultiplayerMode: 1
   healthCounter: {fileID: 1712411313}
   ammoCounter: {fileID: 590663962}
   enemyCounter: {fileID: 565063203}
