@@ -9,4 +9,9 @@ public class GameMenuController : MonoBehaviour
     {
         SceneManager.LoadScene("Level1");
     }
+
+    public void OnMultiplayerSelected()
+    {
+        SceneManager.LoadScene("MultiplayerScene");
+    }
 }

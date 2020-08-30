@@ -60,6 +60,7 @@ public class GameController : MonoBehaviour
             resetTimer -= Time.deltaTime;
             if(resetTimer <= 0)
             {
+                //SceneManager.LoadScene("Level2");
                 SceneManager.LoadScene("GameMenu");
             }
         }

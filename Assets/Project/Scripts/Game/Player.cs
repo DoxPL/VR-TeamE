@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     private int health;
     private uint ammunation;
     private bool isHurt;
+    public TextMesh tmName;
 
     public int Health
     {
@@ -35,6 +36,7 @@ public class Player : MonoBehaviour
     {
         ammunation = initAmmunation;
         health = initHealth;
+        SetPlayerName("Player");
     }
 
     void Update()
@@ -130,5 +132,23 @@ public class Player : MonoBehaviour
     {
         GetComponent<CharacterController>().enabled = false;
         GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = false;
+    }
+
+    public void SetPlayerName(string name)
+    {
+        if (tmName == null)
+        {
+            for(int i=0; i < this.transform.childCount; i++)
+            {
+                if (this.transform.GetChild(i).name == "Name")
+                {
+                    tmName = this.transform.GetChild(i).GetComponent<TextMesh>();
+                }
+            }
+        }
+        else
+        {
+            tmName.text = name;
+        }
     }
 }
