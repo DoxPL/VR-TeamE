@@ -28,6 +28,7 @@ public class GameController : MonoBehaviour
         if (levels.Count == 0)
         {
             levels.Push("GameMenu");
+            levels.Push("Level3");
             levels.Push("Level2");
         }
     }
