@@ -127,7 +127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8679669
 Transform:
   m_ObjectHideFlags: 0
@@ -655,7 +655,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &999724868
 Transform:
   m_ObjectHideFlags: 0
@@ -1404,9 +1404,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 999724867}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 704636534}
+        m_MethodName: OnMultiplayerSelected
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1424,8 +1424,8 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+          m_BoolArgument: 1
+        m_CallState: 0
 --- !u!114 &2040121077
 MonoBehaviour:
   m_ObjectHideFlags: 0

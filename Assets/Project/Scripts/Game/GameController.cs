@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     [Header("Game")]
     public Player player;
     public GameObject enemyContainer;
+    public bool isMultiplayerMode;
 
     [Header("UserInterface")]
     public Text healthCounter;
@@ -18,10 +19,19 @@ public class GameController : MonoBehaviour
 
     private bool gameOver = false;
     private float resetTimer = 5f;
+    private static Stack<string> levels = new Stack<string>();
 
     void Start()
     {
         infoText.gameObject.SetActive(false);
+
+        if (levels.Count == 0)
+        {
+            levels.Push("GameMenu");
+            levels.Push("Level4");
+            levels.Push("Level3");
+            levels.Push("Level2");
+        }
     }
 
     void Update()
@@ -60,7 +70,14 @@ public class GameController : MonoBehaviour
             resetTimer -= Time.deltaTime;
             if(resetTimer <= 0)
             {
-                SceneManager.LoadScene("GameMenu");
+                if(player.IsKilled)
+                {
+                    SceneManager.LoadScene("GameMenu");
+                } else
+                {
+                    SceneManager.LoadScene(levels.Pop());
+                }
+        
             }
         }
     }

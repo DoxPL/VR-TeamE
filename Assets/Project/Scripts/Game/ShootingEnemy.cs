@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class ShootingEnemy : Enemy
 {
+    public GameObject playerObject;
     private Player player;
     private float shotTimer;
     private float chasingTimer;
@@ -17,10 +18,9 @@ public class ShootingEnemy : Enemy
 
     void Start()
     {
-        player = GameObject.Find("FPSController").GetComponent<Player>();
+        player = playerObject.GetComponent<Player>();
         shotTimer = Random.Range(0, shotInterval);
         agent = GetComponent<NavMeshAgent>();
-
         agent.SetDestination(player.transform.position);
     }
 
@@ -38,10 +38,12 @@ public class ShootingEnemy : Enemy
         if (shotTimer <= 0 && (Vector3.Distance(transform.position, player.transform.position) <= shotDistance))
         {
             shotTimer = shotInterval;
+            /*
             GameObject bullet = ObjectPoolingManager.Instance.GetBullet(false);
             bullet.transform.position = transform.position;
             bullet.transform.forward = (player.transform.position - transform.position).normalized;
             agent.SetDestination(player.transform.position);
+            */
         }
 
         chasingTimer -= Time.deltaTime;
